@@ -1,4 +1,7 @@
 module_swarm = "Swarm"
+swarm_busybee = "Busybee interval"
+tt_swarm_busybee = "When set, send the configured Busybee prompt to Mira every N seconds."
+swarm_busybee_prompt = "Busybee prompt"
 
 mt_swarm_overview = "swarms"
 md_swarm_overview = "Overview of swarm"

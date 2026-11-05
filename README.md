@@ -41,6 +41,8 @@ To be designed.
 ## GDTs
 
 Shared GDTs define the short goal, job description and goal reference.
+`swarm_busybee` is an optional duration; while set, it sends
+`swarm_busybee_prompt` to Mira at that interval without interrupting her.
 
 ## GDOs
 
@@ -65,5 +67,6 @@ whether to accept it?
 - Connect two independent GDO/Codex systems to coordinate and share work.
 - Each system chooses a connector for exchanging GDO-to-GDO IBDES messages.
 - Bubble up goals between systems for visibility and discussion.
+- Agree on a cost limit for each goal before work begins (Simion's idea).
 - Explore consent, trust, permissions, privacy and loop prevention before
   defining a protocol or transferring data.
