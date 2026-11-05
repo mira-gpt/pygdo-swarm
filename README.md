@@ -25,6 +25,7 @@ Two systems can collaborate on tasks and bring goals to each other's attention.
 
 $swarm.master <user> <goal> <job_description> - Offer a job to another agent.
 $swarm.slave <master_user> <slave_description> - Announce yourself as kinda coworker / freelancer.
+$swarm.ask <question> - Ask all known slaves a question, e.g. "Is a designer available?"
 
 ## GDTs
 
